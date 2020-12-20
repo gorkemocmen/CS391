@@ -1,0 +1,77 @@
+body
+{
+	background: url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.header-divider {
+    clear: left;
+    height: 25px;
+    width: 100%;
+    background: #3d3935 -70px 0 no-repeat;
+}
+
+#page-content {
+    width: 100%;
+    float: left;
+    padding: 0;
+    
+    box-shadow: 0 0 15px rgba(50,50,50,0.75);
+
+}
+
+form{
+	margin: 1em 0;
+	margin-right: 30%;
+	margin-left: 5%;
+    border: 1px solid #d2e1e6;
+    border-radius: 3px 3px 3px 3px;
+    padding: .8em;
+    background-color: #e9eff1;
+}
+
+input {
+   width: 100px;
+   height: 20px;
+ }
+
+.button-red p button {
+    background-color:#333;
+    border-bottom: 5px solid #DDDDDD;
+    border-radius: 0;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: "DINWebBold",sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.125em;
+    margin-bottom: 6px;
+    margin-right: 2%;
+    padding: 1%;
+    text-decoration: none;
+    position: relative;
+	top: 40%;
+	left: 65%;
+}
+
+h2	{
+	color: #333;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(1) {
+  background-color: #dddddd;
+}
