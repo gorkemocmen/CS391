@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GRADE CALCULATOR</title>
+    <link rel="stylesheet" type="text/css" href="css/grade_calculator.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="header-divider"></div>
+
+    <div id="page-content">
+        <h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            Grade Calculator</h1>
+
+        <form>
+            <h2>Activities</h2>
+            <p>Give grades to the numeric activities:</p>
+
+            <table id="dataTable">
+                <tr>
+                    <th>Name</th>
+
+                    <th>Weight</th>
+                    <th>Grade</th>
+                    <th>Percent</th>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+
+                    <td><input type="number" id="weight-A1" placeholder="Enter Weight"></td>
+                    <td><input type="number" id="scored-A1" placeholder="Enter score" onchange="percent_A1()"> / <input
+                            type="number" id="total-A1" placeholder="Enter total" onchange="percent_A1()"></td>
+                    <td id="display_percent-A1">%</td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+
+                    <td><input type="number" id="weight-A2" placeholder="Enter Weight"></td>
+                    <td><input type="number" id="scored-A2" placeholder="Enter score" onchange="percent_A2()"> / <input
+                            type="number" id="total-A2" placeholder="Enter total" onchange="percent_A2()"></td>
+                    <td id="display_percent-A2">%</td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+
+                    <td><input type="number" id="weight-A3" placeholder="Enter Weight"></td>
+                    <td><input type="number" id="scored-A3" placeholder="Enter score" onchange="percent_A3()"> / <input
+                            type="number" id="total-A3" placeholder="Enter total" onchange="percent_A3()"></td>
+                    <td id="display_percent-A3">%</td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+
+                    <td><input type="number" id="weight-A4" placeholder="Enter Weight"></td>
+                    <td><input type="number" id="scored-A4" placeholder="Enter score" onchange="percent_A4()"> / <input
+                            type="number" id="total-A4" placeholder="Enter total" onchange="percent_A4()"></td>
+                    <td id="display_percent-A4">%</td>
+                </tr>
+            </table>
+
+
+
+           
+
+
+
+
+            <h2>Result</h2>
+            <p id="result"></p>
+            <div class="button-red">
+                <p>
+                    <button type="button" id="weight-button" onclick="weighted()">WEIGHTED</button>
+                    <button type="button" id="mean-button" onclick="mean()">MEAN</button>
+                </p>
+            </div>
+
+            <h4>*Please press refresh to start over</h4>
+        </form>
+
+    </div>
+
+    <div class="header-divider"></div>
+
+    <script src="js/calculator.js"></script>
+</body>
+
+</html>
