@@ -15,10 +15,10 @@ You can run through the VSCode LiveGo extension.
 
 STEPS:
 
-Using Sign Up, you have to register.
-After registration, click Sign In and enter your username and password.
-You have re-enter your username and password after sign in order to view courses.
-To calculate your overall weighted grade or based on the mean, click on Calculate Your Grade on View Courses screen.
+Using Sign Up, you have to register.</br>
+After registration, click Sign In and enter your username and password..</br>
+You have re-enter your username and password after sign in order to view courses..</br>
+To calculate your overall weighted grade or based on the mean, click on Calculate Your Grade on View Courses screen..</br>
 
 The project  needs some improvemens  in futures.
 
