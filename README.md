@@ -4,10 +4,10 @@ Repository for CS 391- Web Application Development
 
 Installation:
 
-1)Download and install node.js
-2)npm install -g http-server
-3)Run http-server in terminal. Do not forget change environmental variables.
-4)Browse to localhost:8080
+1)Download and install node.js </br>
+2)npm install -g http-server </br>
+3)Run http-server in terminal. Do not forget change environmental variables. </br>
+4)Browse to localhost:8080 </br>
 
 OR
 
