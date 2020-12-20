@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forgot Password?</title>
+    <link rel="stylesheet" href="css/courses.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/courses.js"></script>
+
+</head>
+<body>
+
+    <div class="calculator-box">
+        <h1>CGPA CALCULATOR</h1>
+        <p>
+            This CGPA Calculator is based on the Ozyegin University grading
+            system.
+        </p>
+    
+        <div id="course-wrapper">
+            <form class="key-0">
+                <p> <label id="course-row" for="courses">Courses:</label>
+                    <label id="credit-row" for="credit-units">Credit Units:</label>
+                    <label id="grade-row" for="grade">Grades: </label>
+                </p>
+                <input type="text" placeholder="Course Code" class="courses key-0" required />
+                <!--               <label for="credit-units">Credit Units:</label> -->
+                <input type="number" class="credit-units key-0" placeholder="Credit Units" value="" required />
+                <!--               <label for="grade">Grade: </label> -->
+                <select class="grade key-0" required>
+                    <option class="grade" value="select">Select</option>
+                    <option class="grade" value="11">A</option>
+                    <option class="grade" value="10">A-</option>
+                    <option class="grade" value="9">B+</option>
+                    <option class="grade" value="8">B</option>
+                    <option class="grade" value="7">B-</option>
+                    <option class="grade" value="6">C+</option>
+                    <option class="grade" value="5">C</option>
+                    <option class="grade" value="4">C-</option>
+                    <option class="grade" value="3">D+</option>
+                    <option class="grade" value="2">D</option>
+                    <option class="grade" value="1">F</option>
+                </select>
+            </form>
+        </div>
+        <!-- <section class"btn">+ Add Course</section> -->
+        <div class="btn">
+            <button onclick="addCourse()">+ Add Course</button>
+            <button onclick="removeCourse()">- Remove Course</button>
+            <button onclick="calcCgpa()">Calculate CGPA</button>
+            <button onclick="window.location.href='grade_calculator.html'">Calculate Your Grades</button>
+        </div>
+        
+        <div class="lastp">
+            <p id="cgpa-calc">Your CGPA is:</p>
+        </div>
+    </div>
+
+</body>
+</html>
