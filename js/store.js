@@ -44,7 +44,7 @@ function check() {
     var userPw = document.getElementById('userPw');
 
     if (userName.value == storedUserName && userPw.value == storedPw) {
-        alert('You are logged in.');
+        return window.location.href = "http://127.0.0.1:8080/courses";
        
     } else {
         alert('Error on login');
