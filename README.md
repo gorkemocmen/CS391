@@ -22,5 +22,5 @@ To calculate your overall weighted grade or based on the mean, click on Calculat
 
 The project  needs some improvemens  in futures.
 
-No:1) The page does not link to the courses page after signing in. You have to click on View Courses in order to open courses.html.(Fixed with the update js/store.js and index.html </br>
+No:1) The page does not link to the courses page after signing in. You have to click on View Courses in order to open courses.html.(Fixed with the update on js/store.js and index.html)</br>
 No:2) All the four rows needs to be filled in grade_calculator. Add row/delete row functions needs to be implemented as well.
