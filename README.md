@@ -6,7 +6,7 @@ Installation:
 
 1)Download and install node.js </br>
 2)npm install -g http-server </br>
-3)Run http-server in terminal. Do not forget change environmental variables. </br>
+3)Run http-server -c-1 in terminal. Do not forget change environmental variables. (-c-1 disables caching)</br>
 4)Browse to $yourip:8080 </br>
 
 OR
